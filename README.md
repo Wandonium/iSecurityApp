@@ -12,14 +12,11 @@ iSecurity is currently not available on the Google Play Store or iOS app store.
 
 ## About
 
-iSecurity was made for private security companies in Kenya to enhance their work and make it easier by using android smartphones.
-You can download iSecurity from hillarywando.com/blog/isecurity-app and follow the instructions to install it on your own smartphone for testing purposes.
+iSecurity was made for private security companies in Kenya to enhance their work and make it easier by using android smartphones.You can download iSecurity from [here](http://hillarywando.com/blog/isecurity-app/) and follow the instructions to install it on your own smartphone for testing purposes.
 
 Alternatively, you can directly contact [TechCloud Ltd](http://www.techcloud.co.ke/) for a full live demo with free tech support included.
 
-This android application allows a security guard to scan the national IDs of guests coming to a building/business premise and store the data in an easily accessible database.
-
-This application was originally created by Hillary Wando with collaboration from the team at TechCloud Ltd..
+This android application allows a security guard to scan the national IDs of guests coming to a building/business premise and store the data in an easily accessible database.This application was originally created by Hillary Wando with collaboration from the team at TechCloud Ltd.
 
 ## Features
 
