@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context=".activities.GuardHomeActivity"
+    android:id="@+id/nestedScrollViewGuardHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/isecurity_logo" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Welcome to iSecurity. A product by Tech Cloud Ltd."
+            android:textSize="16dp"/>
+
+        <ScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/tv_welcome">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_signInGuest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_welcome"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#444"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="10dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tap here to sign in a new guest into the system."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_signOutGuest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cv_signInGuest"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#444"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="10dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tap here to sign out a guest or sign in a previous guest into the system."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_employee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cv_signOutGuest"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#444"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="10dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tap here to sign in or sign out an employee."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_instructions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cv_employee"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#444"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="10dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="When searching for employee or guest, search using the ID number or name only. Please note that all other fields are not searchable."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nestedScrollView"
+            android:layout_marginTop="16dp"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

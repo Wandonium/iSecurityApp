@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        app:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="Update this guest's details"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutUGuestId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_UGuestId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update ID No:"
+            android:inputType="number"
+            android:maxLines="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutUGuestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_UGuestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update Name:"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutUGuestPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_UGuestPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update Phone No:"
+            android:inputType="number"
+            android:maxLines="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Gender:" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Male"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutUGuestReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_UGuestReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Update reason for visit:"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_guestCompanies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/update_building"/>
+</LinearLayout>

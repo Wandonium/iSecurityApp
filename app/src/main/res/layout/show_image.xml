@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_post_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#777">
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="#777"
+            android:src="@drawable/ic_close_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:background="#777"
+            android:src="@drawable/ic_check_black_24dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

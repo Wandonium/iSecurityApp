@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/card_background"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="ID Number:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30313031"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Name:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Name"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Phone No:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empPhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="254707070707"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Employee Role:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample role"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Time In:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empTimeIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-07-30T04:25:38.679662"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Time Out:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empTimeOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-07-30T04:25:38.679662"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Company:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Company"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Building:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empBuilding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Building"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Guard:"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_empGuard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample Guard"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signInEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Sign In"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_deleteEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Delete"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signOutEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Sign Out"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

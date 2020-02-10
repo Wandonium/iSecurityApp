@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:checked="true"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_buildings"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Buildings" />
+        <item
+            android:id="@+id/nav_security_guards"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Security Guards" />
+        <item
+            android:id="@+id/nav_companies"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Companies" />
+    </group>
+
+    <item android:title="Sign In and Out">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_guests"
+                    android:icon="@drawable/ic_group_add_black_24dp"
+                    android:title="Guests" />
+                <item
+                    android:id="@+id/nav_employees"
+                    android:icon="@drawable/ic_group_black_24dp"
+                    android:title="Employees" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

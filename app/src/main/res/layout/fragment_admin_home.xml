@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AdminHomeFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/isecurity_logo"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to the iSecurity Admin Panel."
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="In this panel you can do all the CRUD operations on any of the system's five entities. "
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="To create an entity e.g a security guard, tap on the Security Guards menu item in the navigation drawer and then on the plus floating action button. This will take you to the 'create security guard' activity where you can create/register a new security guard to the system."
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="To update an entity e.g a security guard, tap on the Security Guards menu item in the navigation drawer and then on the card of the specific security guard you want to update in the list. This will open a dialog that lets you update the details of the selected security guard in the system."
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="To delete an entity e.g a security guard, tap on the Security Guards menu item in the navigation drawer and then on the delete button beside the card of the specific security guard you want to delete in the list. This will directly delete the selected security guard from the system so be careful with this button."
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="\u00A9 2019 Tech Cloud Ltd."
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
