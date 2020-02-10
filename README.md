@@ -35,27 +35,22 @@ The android app lets you:
 width="200"
     hspace="10" vspace="10">](./readme/screenshot1.jpg)
 
-
 [<img src="./readme/screenshot2.jpg" align="center"
 width="200"
     hspace="10" vspace="10">](./readme/screenshot2.jpg)
-
 
 [<img src="./readme/screenshot5.jpg" align="center"
 width="200"
     hspace="10" vspace="10">](./readme/screenshot5.jpg)
 
-
 [<img src="./readme/screenshot6.jpg" align="center"
 width="200"
     hspace="10" vspace="10">](./readme/screenshot6.jpg)
-
 
 [<img src="./readme/screenshot7.jpg" align="center"
 width="200"
     hspace="10" vspace="10">](./readme/screenshot7.jpg)
 
-    
 [<img src="./readme/screenshot8.jpg" align="center"
 width="200"
     hspace="10" vspace="10">](./readme/screenshot8.jpg)
